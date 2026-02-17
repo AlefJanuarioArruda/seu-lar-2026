@@ -1,4 +1,4 @@
-import ebookMockup from "@/assets/ebook-mockup.png";
+import ebookMockup from "@/assets/Minha_casa_minha_vida.png";
 import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
