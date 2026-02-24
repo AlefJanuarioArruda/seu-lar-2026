@@ -15,9 +15,7 @@ const WhatsAppCapture = () => {
       <div className="container">
         <div className="max-w-lg mx-auto text-center text-primary-foreground">
           <MessageCircle className="mx-auto mb-4" size={36} />
-          <h2 className="text-2xl md:text-3xl font-extrabold mb-2">
-            Receba uma prévia gratuita
-          </h2>
+          <h2 className="text-2xl md:text-3xl font-extrabold mb-2">Receba uma prévia gratuita</h2>
           <p className="text-primary-foreground/80 font-body text-sm mb-8">
             Digite seu WhatsApp e receba um trecho do ebook gratuitamente.
           </p>
@@ -38,12 +36,14 @@ const WhatsAppCapture = () => {
                 onChange={(e) => setPhone(e.target.value)}
                 className="flex-1 px-5 py-3.5 rounded-xl bg-primary-foreground/15 backdrop-blur-sm border border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/50 font-body text-sm focus:outline-none focus:ring-2 focus:ring-primary-foreground/30"
               />
-              <button
-                type="submit"
-                className="cta-gradient text-accent-foreground font-bold px-6 py-3.5 rounded-xl shadow-cta hover:scale-105 transition-all duration-300 text-sm whitespace-nowrap"
+              <a
+                href="https://wa.me/553191328740"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta-gradient text-accent-foreground font-bold px-6 py-3.5 rounded-xl shadow-cta hover:scale-105 transition-all duration-300 text-sm whitespace-nowrap inline-block text-center"
               >
                 Enviar Prévia
-              </button>
+              </a>
             </form>
           )}
         </div>
