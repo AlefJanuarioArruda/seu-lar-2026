@@ -21,7 +21,13 @@ const faixas = [
     label: "Faixa 4",
     color: "bg-faixa3",
     renda: "R$ 12.000",
-    items: ["Menos subsídio", "Financiamento facilitado", "Taxas melhores que mercado"],
+    items: [
+      "Ideal para rendas mais altas",
+      "Financie imóveis de maior valor",
+      "Juros menores que os bancos tradicionais",
+      "Parcelas mais acessíveis a longo prazo",
+      "Mais poder de compra no seu financiamento",
+    ],
   },
 ];
 
