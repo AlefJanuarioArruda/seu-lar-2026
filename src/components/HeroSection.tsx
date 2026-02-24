@@ -28,7 +28,9 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <a
-                href="#oferta"
+                href="https://go.hotmart.com/W104579218X"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="cta-gradient text-accent-foreground font-bold text-lg px-8 py-4 rounded-xl shadow-cta hover:scale-105 transition-all duration-300 text-center"
               >
                 Quero Baixar o Ebook Agora
