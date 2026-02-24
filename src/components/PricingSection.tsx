@@ -34,7 +34,7 @@ const PricingSection = () => {
               <div className="mb-6">
                 <p className="text-muted-foreground line-through text-lg">De: R$ 97,00</p>
                 <p className="text-4xl font-extrabold text-foreground mt-1">
-                  R$ 29<span className="text-2xl">,90</span>
+                  R$ 19<span className="text-2xl">,90</span>
                 </p>
                 <p className="text-muted-foreground text-xs mt-1">Pagamento único • Acesso vitalício</p>
               </div>
@@ -46,9 +46,7 @@ const PricingSection = () => {
                 Comprar Agora com Desconto
               </a>
 
-              <p className="text-muted-foreground text-xs mt-4 font-body">
-                🔒 Pagamento 100% seguro
-              </p>
+              <p className="text-muted-foreground text-xs mt-4 font-body">🔒 Pagamento 100% seguro</p>
             </div>
           </div>
         </div>
