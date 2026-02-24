@@ -40,7 +40,9 @@ const PricingSection = () => {
               </div>
 
               <a
-                href="#"
+                href="https://go.hotmart.com/W104579218X"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block w-full cta-gradient text-accent-foreground font-bold text-lg py-4 rounded-xl shadow-cta hover:scale-[1.02] transition-all duration-300 text-center"
               >
                 Comprar Agora com Desconto
