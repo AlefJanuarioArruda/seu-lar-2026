@@ -14,7 +14,13 @@ const faixas = [
   {
     label: "Faixa 3",
     color: "bg-faixa3",
-    renda: "R$ 4.400 a R$ 8.000",
+    renda: "R$ 8.600",
+    items: ["Menos subsídio", "Financiamento facilitado", "Taxas melhores que mercado"],
+  },
+  {
+    label: "Faixa 4",
+    color: "bg-faixa3",
+    renda: "R$ 12.000",
     items: ["Menos subsídio", "Financiamento facilitado", "Taxas melhores que mercado"],
   },
 ];
@@ -25,9 +31,7 @@ const FaixasSection = () => {
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <span className="text-secondary font-semibold text-sm uppercase tracking-wider">Faixas</span>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mt-2">
-            Faixas do Minha Casa Minha Vida
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mt-2">Faixas do Minha Casa Minha Vida</h2>
           <p className="text-muted-foreground font-body mt-3">Conheça cada faixa e descubra onde você se encaixa</p>
         </div>
 
