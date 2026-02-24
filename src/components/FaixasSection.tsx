@@ -2,13 +2,13 @@ const faixas = [
   {
     label: "Faixa 1",
     color: "bg-faixa1",
-    renda: "Até R$ 2.640",
+    renda: "Até R$ 2.850",
     items: ["Maior subsídio do governo", "Parcelas reduzidas", "Taxas de juros mínimas"],
   },
   {
     label: "Faixa 2",
     color: "bg-faixa2",
-    renda: "R$ 2.640 a R$ 4.400",
+    renda: "R$ 4.700",
     items: ["Subsídio parcial", "Juros menores que financiamento comum", "Condições facilitadas"],
   },
   {
